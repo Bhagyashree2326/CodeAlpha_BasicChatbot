@@ -1,46 +1,23 @@
-# Human Game
+# Basic Chatbot
 
 ## Description
-This is a simple text-based Human Game built using Python. The game randomly selects a word from a list of user-entered words. The player guesses one letter at a time to reveal the hidden word. The player has a maximum of 3 incorrect guesses.
+This is a simple rule-based chatbot developed using Python. It interacts with users by responding to predefined messages using if-elif-else conditions.
 
 ## Features
-- Enter 4 words.
-- Randomly selects one word using the `random` module.
-- Displays the hidden word with underscores.
-- Allows one-letter guesses.
-- Maximum of 3 incorrect guesses.
-- Displays a win or game over message.
-
-## Technologies Used
-- Python 3
+- Greets the user
+- Responds to basic conversations
+- Continues chatting until the user enters "bye"
+- Handles unknown inputs with a default response
 
 ## Concepts Used
-- Random Module
+- Functions
 - While Loop
-- If-Else Statements
-- Lists
-- Strings
-- User Input
+- If-elif-else
+- Input and Output
+- String Method (.lower())
 
 ## How to Run
-1. Clone this repository.
-2. Open the project folder.
-3. Run the following command:
-   ```bash
-   python human.py
-   ```
-4. Enter 4 words when prompted.
-5. Start guessing the hidden word.
-
-## Sample Output
-```text
-===== HUMAN GAME =====
-
-Word: _ _ _ _ _
-
-Wrong guesses left: 
-
-Enter a letter: a
-Correct!
-
-Word: a _ _ _ _
+1. Open the project in VS Code.
+2. Run the `chatbot.py` file.
+3. Type messages to interact with the chatbot.
+4. Type `bye` to exit the chatbot.
